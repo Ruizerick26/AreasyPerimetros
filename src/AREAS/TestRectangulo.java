@@ -2,8 +2,8 @@ package AREAS;
 
 public class TestRectangulo {
 	public static void main(String[] args) {
-		Rectangulo r1 = new Rectangulo();
-		Rectangulo r2 = new Rectangulo();
+		Rectangulo r1 = new Rectangulo(0,0);
+		Rectangulo r2 = new Rectangulo(0,0);
 		r1.setBase(4);
 		r1.setAltura(2);
 		double resultado1 = r1.perimetro();
