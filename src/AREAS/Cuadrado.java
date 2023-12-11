@@ -1,7 +1,14 @@
 package AREAS;
 
 public class Cuadrado {
-	int lado;
+	private int lado;
+	
+	public int getLado() {
+		return lado;
+	}
+	public void setLado(int lado) {
+		this.lado = lado;
+	}
 	public double area() {
 		double resultado;
 		resultado = lado *4;
